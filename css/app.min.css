@@ -184,7 +184,7 @@ body.front .outer-block-wrapper .content {
   }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body.front .outer-block-wrapper span {
     line-height: 80px;
     font-size: 36px;
@@ -267,4 +267,15 @@ h1 {
   font-weight: 700;
   line-height: 36px;
   margin-top: 24px;
+}
+
+.col-md-6 {
+  margin: 20px 0;
+}
+
+@media (min-width: 769px) {
+  .first-row {
+    margin: auto;
+    max-width: 80%;
+  }
 }
